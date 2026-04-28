@@ -3,7 +3,7 @@ declare global {
     interface ProcessEnv {
       TOKEN: string;
       TCGGO_API_BASE_URL: string;
-      TCGGO_API_KEY: String;
+      TCGGO_API_KEY: string;
     }
   }
 }

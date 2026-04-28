@@ -58,11 +58,11 @@ export async function renderProduct(
       ? `**Rarity:** ${card.rarity}
 **HP:** ${card.hp}
 **Type:** ${card.supertype}
-**Price:** ${priceValue} €`
+**🇬🇧 Card Market Low Price:** ${priceValue} €`
       : `**Set:** ${card.episode.name}
 **Code:** ${card.episode.code}
 **Release:** ${card.episode.released_at}
-**Price:** ${priceValue} €`,
+**🇬🇧 Card Market Low Price:** ${priceValue} €`,
   );
 
   const separator = new SeparatorBuilder()
