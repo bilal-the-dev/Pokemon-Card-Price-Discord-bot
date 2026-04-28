@@ -2,6 +2,8 @@ declare global {
   namespace NodeJS {
     interface ProcessEnv {
       TOKEN: string;
+      TCGGO_API_BASE_URL: string;
+      TCGGO_API_KEY: String;
     }
   }
 }
